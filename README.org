@@ -2,7 +2,7 @@
 
 | Start time | End time | Activity | Hours |
 |------------+----------+----------+-------|
-|         02 |       07 | App dev  |     5 |
+|         06 |       07 | App dev  |     5 |
 |         09 |       12 | App dev  |     3 |
 |         13 |       15 | Course   |     2 |
 |         16 |       17 | Atlas    |     1 |
