@@ -3,7 +3,7 @@ on: push
 permissions:
   contents: write
 jobs:
-  report:
+  update:
     runs-on: ubuntu-latest
     steps:
       - name: Install emacs
@@ -15,5 +15,8 @@ jobs:
         run: |
           git config --global user.name 'Updater Bot'
           git config --global user.email 'bot@metacode.biz'
-          git commit -am "Update tables"
-          git push
+          if git commit -am "Update tables"; then
+            git push
+          else
+            echo Nothing to commit
+          fi
