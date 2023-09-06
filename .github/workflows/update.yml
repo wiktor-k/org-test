@@ -1,0 +1,19 @@
+name: Update tables
+on: push
+permissions:
+  contents: write
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install emacs
+        run: sudo apt-get install --assume-yes --no-install-recommends emacs
+      - uses: actions/checkout@v3
+      - name: Update tables
+        run: ./update.sh
+      - name: Commit report
+        run: |
+          git config --global user.name 'Updater Bot'
+          git config --global user.email 'bot@metacode.biz'
+          git commit -am "Update tables"
+          git push
