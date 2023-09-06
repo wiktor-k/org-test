@@ -1,5 +1,8 @@
 name: Update tables
-on: push
+on:
+  push:
+    paths:
+      - '**.org'
 permissions:
   contents: write
 jobs:
@@ -17,6 +20,4 @@ jobs:
           git config --global user.email 'bot@metacode.biz'
           if git commit -am "Update tables"; then
             git push
-          else
-            echo Nothing to commit
           fi
