@@ -9,6 +9,9 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
+      - run: apt-get update && apt-get install --assume-yes --no-install-recommends sudo
+        name: Install sudo for act
+        if: env.ACT=='true'
       - name: Install emacs
         run: sudo apt-get install --assume-yes --no-install-recommends emacs
       - uses: actions/checkout@v3
