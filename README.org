@@ -33,11 +33,11 @@ CLOCK: [2024-07-30 wto 05:54]--[2024-07-30 wto 09:24] =>  1:30
 And a report:
 
 #+BEGIN: clocktable :scope file :maxlevel 3
-#+CAPTION: Clock summary at [2024-07-30 wto 09:43]
+#+CAPTION: Clock summary at [2024-07-30 Tue 08:46]
 | Headline     | Time   |      |
 |--------------+--------+------|
-| *Total time* | *2:30* |      |
+| *Total time* | *3:30* |      |
 |--------------+--------+------|
-| Project      | 2:30   |      |
-| \_  Task 1   |        | 2:30 |
+| Project      | 3:30   |      |
+| \_  Task 1   |        | 3:30 |
 #+END:
