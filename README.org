@@ -26,18 +26,18 @@ A couple of ToDos:
 * Project
 ** Task 1
 :LOGBOOK:
-CLOCK: [2024-07-30 wto 06:54]--[2024-07-30 wto 09:24] =>  1:30
+CLOCK: [2024-07-30 wto 05:54]--[2024-07-30 wto 09:24] =>  1:30
 :END:
 ** Task 2
 
 And a report:
 
 #+BEGIN: clocktable :scope file :maxlevel 3
-#+CAPTION: Clock summary at [2024-07-30 wto 09:40]
+#+CAPTION: Clock summary at [2024-07-30 wto 09:43]
 | Headline     | Time   |      |
 |--------------+--------+------|
-| *Total time* | *1:30* |      |
+| *Total time* | *2:30* |      |
 |--------------+--------+------|
-| Project      | 1:30   |      |
-| \_  Task 1   |        | 1:30 |
+| Project      | 2:30   |      |
+| \_  Task 1   |        | 2:30 |
 #+END:
