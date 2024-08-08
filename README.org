@@ -29,6 +29,10 @@ A couple of ToDos:
 CLOCK: [2024-07-30 wto 05:54]--[2024-07-30 wto 09:24] =>  1:30
 :END:
 ** Task 2
+** Task 3
+:LOGBOOK:
+CLOCK: [2024-08-08 Thu 12:00]--[2024-08-08 Thu 13:02] =>  0:00
+:END:
 
 And a report:
 
