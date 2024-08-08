@@ -1,5 +1,6 @@
 (progn
   (require 'org)
+  (setq org-link-file-path-type 'relative)
   (dolist (file command-line-args-left)
     (with-current-buffer (find-file-noselect file)
       (progn
